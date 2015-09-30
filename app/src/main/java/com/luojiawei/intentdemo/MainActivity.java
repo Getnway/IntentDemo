@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 //拨打电话10086
                 Intent intent = new Intent();
                 intent.setAction("android.intent.action.DIAL");
-                intent.setData(Uri.parse("tel:187-0769-7520"));
+                intent.setData(Uri.parse("tel:10086"));
                 startActivity(intent);
             }
         });
